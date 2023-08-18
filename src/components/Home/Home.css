@@ -1,0 +1,94 @@
+.background {
+    /* position: absolute; */
+    background: url("../../assets/home/background-home-desktop.jpg") no-repeat;
+    background-size: auto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.spaceBlock {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.spaceBlock .texts {
+    width: 445px;
+    margin-bottom: 131px;
+}
+
+.spaceBlock .upperText {
+    color: #D0D6F9;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.spaceBlock .bigText {
+    color: #FFF;
+    font-family: "Bellefair", sans-serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.spaceBlock .lowerText {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.exploreBlock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.circle {
+    width: 274px;
+    height: 274px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B0D17;
+    font-family: "Bellefair", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.hoverBg {
+    margin-bottom: 131px;
+    width: 274px;
+    height: 274px;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+}
+.hoverBg:hover {
+    border: 88px solid rgba(255, 255, 255, .1);
+    margin-bottom: 43px;
+    cursor: pointer;
+}
