@@ -1,0 +1,85 @@
+.crewInfoBlock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 150px;
+}
+.crewHeading {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding-top: 74px;
+}
+.crewHeading strong {
+    opacity: .25;
+    margin-right: 28px;
+}
+
+.crewRole {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.5042;
+    margin-bottom: 15px;
+}
+.crewName {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.crewBio {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    width: 444px;
+    /* margin-bottom: 120px; */
+    flex-grow: 1;
+}
+
+.slider {
+    margin-bottom: 94px;
+}
+
+
+.slider circle {
+    opacity: .17;
+}
+
+.slider circle:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+.slider circle.active {
+    opacity: 1;
+}
+
+.slider circle.active:hover {
+    opacity: 1;
+}
+
+.imgBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}

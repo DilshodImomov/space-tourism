@@ -9,7 +9,6 @@ const Destination = () => {
     const planetsImg = [planet1, planet2, planet3, planet4];
     const [planetNum, setPlanetNum] = useState(1);
     const destinationsData = data.destinations;
-    console.log(destinationsData);
     return (
         <div className="container">
             <div className="planetBlock">
