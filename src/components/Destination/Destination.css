@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+.planetBlock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 76px;
+}
+
+.destinationHeading {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.destinationHeading strong {
+    margin-right: 28px;
+    opacity: .25;
+}
+
+.planetBox {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.planetBlock img {
+    width: 445px;
+    height: 445px;
+}
+
+.descriptionBlock {
+    width: 50%;
+    padding-right: 164px;
+    margin-left: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 118px;
+}
+
+.planetLinks {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    display: flex;
+    margin-bottom: 37px;
+}
+.planetLinks p {
+    margin-right: 35px;
+    height: 34px;
+    border-bottom: 3px solid transparent;
+}
+
+.planetLinks p.active {
+    border-bottom: 3px solid white;
+    color: white;
+}
+.planetLinks p.active:hover {
+    border-bottom: 3px solid white;
+}
+
+.planetLinks p:hover {
+    cursor: pointer;
+    border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
+.planetName p {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.planetText {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    width: 444px;
+    margin-bottom: 54px;
+}
+
+.planetLine {
+    height: 1px;
+    width: 444px;
+    background: #383B4B;
+    margin-bottom: 28px;
+}
+
+.distanceBlock {
+    display: flex;
+}
+
+.distanceKm {
+    margin-right: 79px;
+}
+
+.distLabel {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.distNum {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
