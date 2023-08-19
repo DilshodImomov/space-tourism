@@ -1,0 +1,115 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.terminologyBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 150px;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.vehicleBlock {
+    display: flex;
+    /* margin-bottom: 214px; */
+    flex-grow: 1;
+}
+
+.technologyHeading {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    margin: 0;
+    margin-bottom: 137px;
+    padding-top: 76px;
+}
+.technologyHeading strong {
+    opacity: .25;
+    margin-right: 24px;
+}
+
+.vehicleNumbers {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.vehicleNumbers p {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 32px;
+    border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.vehicleNumbers p:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.vehicleNumbers p.active {
+    background-color: white;
+    color: black;
+}
+
+.vehicleText {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    width: 444px;
+    margin: 0;
+}
+
+.vehicleName {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.vehicleHeading  {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.vehicleImgBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
