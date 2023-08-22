@@ -87,3 +87,68 @@
     margin-bottom: 43px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+.containerHome {
+    flex-direction: column;
+}
+.spaceBlock {
+    flex-grow: 1;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.spaceBlock .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.texts .upperText {
+    color: #D0D6F9;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.375px;
+}
+.texts .bigText {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: min(150px, 25vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+.texts .lowerText {
+    text-align: center;
+    color: #D0D6F9;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.exploreBlock {
+    justify-content: center;
+    margin-bottom: min(90px, 8.788vh);
+}
+.hoverBg {
+    margin-bottom: 0;
+}
+.hoverBg:hover {
+    margin-bottom: unset;
+    border: none;
+}
+}
+
+@media screen and (max-height: 736px ) {
+    .exploreBlock {
+        margin-bottom: 3vh;
+    }
+}
