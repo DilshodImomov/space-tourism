@@ -9,12 +9,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 76px;
+    margin-left: 30px;
 }
 
 .destinationHeading {
     color: #FFF;
     font-family: Barlow Condensed;
-    font-size: 28px;
+    font-size: min(28px, 2.6vw);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -36,18 +37,20 @@
     padding: 10px;
 }
 .planetBlock img {
+    max-width: 100%;
     width: 445px;
-    height: 445px;
+    height: auto;
 }
 
 .descriptionBlock {
-    width: 50%;
-    padding-right: 164px;
-    margin-left: 157px;
+    /* width: 50%; */
+    /* padding-right: 164px; */
+    margin-left: min(157px, 10vw);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 118px;
+    justify-content: center;
+    margin-right: 20px;
+    /* margin-bottom: 118px; */
 }
 
 .planetLinks {
@@ -83,7 +86,7 @@
 .planetName p {
     color: #FFF;
     font-family: Bellefair;
-    font-size: 100px;
+    font-size: min(100px, 7vw);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -99,13 +102,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 177.778% */
-    width: 444px;
+    max-width: 444px;
     margin-bottom: 54px;
+    min-height: 160px;
 }
 
 .planetLine {
     height: 1px;
-    width: 444px;
+    max-width: 444px;
     background: #383B4B;
     margin-bottom: 28px;
 }
@@ -115,7 +119,7 @@
 }
 
 .distanceKm {
-    margin-right: 79px;
+    margin-right: min(79px, 7vw);
 }
 
 .distLabel {
@@ -142,3 +146,40 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1075px) {
+    .descriptionBlock {
+        margin-left: 30px;
+    }
+    .planetBlock {
+        margin-left: 30px;
+    }
+}
+
+/*
+@media screen and (max-width: 950px) {
+    .planetName p {
+        font-size: 90px;
+    }
+    .planetBlock {
+        flex-grow: 1;
+        margin-left: 5px;
+    }
+    .descriptionBlock {
+        margin-left: 5px;
+    }
+    .planetBox {
+        transform: scale(.7);
+    }
+    .destinationHeading {
+        font-size: 20px;
+    }
+    .planetLine {
+        width: 350px;
+    }
+    .planetText {
+        width: 350px;
+    }
+    .distanceKm {
+        margin-right: 50px;
+    }
+} */

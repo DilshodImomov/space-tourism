@@ -1,7 +1,7 @@
 import "./Home.css";
 const Home = () => {
     return (
-        <div className="container">
+        <div className="containerHome">
             <div className="spaceBlock">
                 <div className="texts">
                     <h1 className="upperText">SO, YOU WANT TO TRAVEL TO</h1>

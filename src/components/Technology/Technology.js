@@ -9,7 +9,7 @@ const Technology = () => {
     const [vehicleNum, setVehicleNum] = useState(0);
     const technologyData = data.technology;
     return (
-        <div className="container">
+        <div className="containerTechnology">
             <div className="terminologyBlock">
                 <div className="technologyHeading">
                     <strong>03</strong>SPACE LAUNCH 101
