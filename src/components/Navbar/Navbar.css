@@ -60,3 +60,33 @@ li.active:hover {
 li strong {
     margin-right: 11px;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    nav svg {
+        margin-left: min(39px, 3%);
+        margin-right: min(39px, 3%);
+    }
+    nav .line {
+        display: none;
+    }
+    nav ul {
+        min-width: 200px;
+        max-width: 450px;
+        width: 450px;
+        margin: 0;
+        padding-left: min(48px, 4vw);
+        padding-right: min(48px, 4vw);
+        justify-content: space-between;
+    }
+    ul li {
+        font-size: 14px;
+        letter-spacing: 2.362px;
+    }
+    li strong {
+        display: none;
+    }
+}
