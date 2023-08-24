@@ -3,7 +3,7 @@
 }
 .containerCrew {
     flex: 1 1 auto;
-    max-height: 500px;
+    /* max-height: 500px; */
     width: 100vw;
     /* height: 100%; */
     display: flex;
@@ -127,5 +127,79 @@
     }
     .crewHeading {
         padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .containerCrew {
+        flex-direction: column;
+    }
+    .crewInfoBlock {
+        align-items: center;
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .crewHeading {
+        color: #FFF;
+        font-family: Barlow Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.375px;
+        text-transform: uppercase;
+        align-self: flex-start;
+        margin-top: 40px;
+        margin-bottom: min(60px, 8vw);
+        padding-top: 0;
+    }
+    .crewBio {
+        color: #D0D6F9;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        max-width: 592px;
+        width: min(592px, 90vw);
+        margin-bottom: 40px;
+        min-height: 84px;
+        height: fit-content;
+    }
+    .crewRole {
+        color: #FFF;
+        text-align: center;
+        font-family: Bellefair;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    .crewName {
+        color: #FFF;
+        text-align: center;
+        font-family: Bellefair;
+        font-size: min(40px, 8vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    .slider {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .imgBlock {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        /* min-height: 500px; */
+    }
+    .imgBlock img {
+        max-height: 500px;
     }
 }
