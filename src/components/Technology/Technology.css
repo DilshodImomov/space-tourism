@@ -1,7 +1,12 @@
 .containerTechnology {
     width: 100%;
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
+}
+
+.infoBlock {
+    display: flex;
 }
 
 .terminologyBlock {
@@ -9,8 +14,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-left: 20px;
-    width: clamp(300px, 100%, 1000px);
+    padding-left: 20px;
+    max-width: 100%;
+    width: 800px;
     margin-right: 20px;
 
 }
@@ -34,6 +40,7 @@
     margin: 0;
     margin-bottom: 10vh;
     padding-top: 76px;
+    margin-left: 20px;
 }
 .technologyHeading strong {
     opacity: .25;
@@ -121,9 +128,103 @@
 .vehicleImgBlock img {
     max-width: 100%;
 }
+.imgL {
+    display: none;
+}
 
 @media screen and (max-width: 1050px) {
     .vehicleNumbers {
         margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .infoBlock {
+        flex-direction: column-reverse;
+    }
+    .terminologyBlock {
+        width: 100%;
+        padding-left: 0px;
+        /* margin-bottom: 10px; */
+    }
+    .technologyHeading {
+        margin-bottom: 60px;
+        padding-top: 40px;
+    }
+    .vehicleImgBlock {
+        margin-right: 0px;
+        overflow-x: hidden;
+        align-items: flex-start;
+    }
+    .imgP {
+        display: none;
+    }
+    .vehicleImgBlock img {
+        max-width: 101%;
+    }
+    .imgL {
+        display: block;
+        width: 101%;
+    }
+    .vehicleBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vehicleNumbers {
+        flex-direction: row;
+        margin-bottom: min(44px, 3vh);
+        margin-right: 0px;
+        margin-top: min(56px, 3vh);
+    }
+    .vehicleNumbers p {
+        max-width: 60px;
+        max-height: 60px;
+        width: 60px;
+        height: 60px;
+        margin-right: 16px;
+        text-align: center;
+        font-family: Bellefair;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+    }
+    .vehicleDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vehicleText {
+        text-align: center;
+        color: #D0D6F9;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        max-width: 440px;
+        padding: 0px 1px;
+    }
+    .vehicleHeading {
+        color: #D0D6F9;
+        font-family: Barlow Condensed;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.7px;
+    }
+    .vehicleName {
+        color: #FFF;
+        text-align: center;
+        font-family: Bellefair;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
 }
