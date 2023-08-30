@@ -202,6 +202,6 @@
         text-align: center;
         margin-right: 0;
         max-width: 216px;
-        width: 216px;
+        width: min(216px, 40vw);
     }
 }
